@@ -1,0 +1,15 @@
+{
+  "name": "inspect-on-forked-processes-doesnt-work",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node --inspect -F index.ts"
+  },
+  "dependencies": {
+    "ts-node": "^3.1.0",
+    "typescript": "^2.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.50"
+  }
+}
